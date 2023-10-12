@@ -48,7 +48,7 @@ def quickSort(lst):
 
         return quickSort(L) + M + quickSort(R)
 
-size = int(input('enter size: '))
+size = int(input('введите размер: '))
 lst = gen(size)
 
 startFirst = time.time()
